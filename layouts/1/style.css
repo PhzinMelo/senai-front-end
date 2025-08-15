@@ -1,0 +1,37 @@
+.header{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 132, 255);
+    height: 71px;
+    justify-content: space-between;
+}
+.logoheader{
+    font-size: 12px;
+    color: white;
+    margin-right: 20px; 
+    margin-left: 20px;
+}
+    
+.lIsta{
+    display: flex;
+    margin-right: 20px;
+
+}
+
+
+
+
+.paginas{
+    font-size: 12px;
+    color: white;
+    margin-right: 20px;
+    list-style: none;
+    margin-left: auto;
+    
+}
+.imagemdfundo{
+    width: 1,680px ;
+    height: 427px ;
+     
+}
