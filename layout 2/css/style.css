@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif; /* ou outra fonte padrão */
+}
+
+.header{    
+    background-color: #3750B3;
+    width: 100%;
+    height: 71px;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 120px; /* espaço interno nas laterais */
+    box-sizing: border-box; /* importante para garantir que padding não aumente largura */
+    width: 100%;
+}
+.elementos-header{
+    display: flex;
+    
+    
+    list-style: none;
+    
+    
+}
+.logo{
+    color: white;
+    display: flex;
+}
+.paginas{
+    color: white;
+    display: flex;
+    
+}
+.elementos-paginas{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    
+}
+
+.navegationpages{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    
+}
+.container-meio {
+    width: 100%;
+    max-width: calc(100% - 240px);                 /* Largura total da área principal */
+    box-sizing: border-box;  
+    margin: 0 auto;                /* Centraliza a área principal */
+  padding: 60px 0px;               /* Espaço em cima e embaixo (opcional para estética) */
+}
+.images-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centraliza as imagens horizontalmente */
+  gap: 60px;               /* Espaço entre as imagens */
+  margin-left: auto;        /* Espaço à esquerda para alinhar com o header */
+}
+.imagem {
+  width: 50%;                  /* Largura fixa para cada imagem */
+  height: 50%;                 /* Altura fixa para cada imagem */
+  object-fit: cover;             /* Ajusta a imagem para cobrir o espaço sem distorcer */
+  display: block;                /* Remove espaços em linha que as imagens podem gerar */
+}
