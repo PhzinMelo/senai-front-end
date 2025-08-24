@@ -38,7 +38,7 @@ main{
 }
     .nav-library p,i {
         
-        font-size: 14px;
+        font-size: 18px;
     gap: 10px;
 }
 .title {
@@ -56,11 +56,21 @@ main{
     gap: 10px;
     background-color: #2B2B2B;
     cursor: pointer;
-    width: 85%;
+    /* Remova a largura em porcentagem */
+    /* width: 85%; */
+    /* Use uma largura fixa para os cards da playlist */
+    width: 250px;
     height: 70px;
     border-radius: 8px;
     padding: 10px;
     color: white;
+}
+
+/* Opcional: Se você quiser que as playlists se ajustem a telas menores */
+@media (max-width: 1024px) {
+    .playlists {
+        width: 100%; /* Ocupa toda a largura disponível */
+    }
 }
 .playlists p {
     padding-left: 4px ;
