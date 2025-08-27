@@ -6,15 +6,18 @@ if(operation===1){
    number3=number1+number2 
     alert(number3)
 }
-if(operation===2){    
+else if(operation===2){    
    number3= number1-number2
     alert(number3)
 }
-if(operation===3){    
+else if(operation===3){    
     number3=number1*number2
     alert(number3)
 }
-if (operation===4){   
+else if (operation===4){   
     number3= number1/number2
     alert(number3)
+}
+else{   
+    alert(`Opção invalida`)
 }
