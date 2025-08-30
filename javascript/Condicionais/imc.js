@@ -1,3 +1,4 @@
+function ex12(){
 const altura =Number(prompt("Digite sua altura"))
 const peso =Number(prompt("Digite seu peso"))
 let imc
@@ -19,4 +20,5 @@ else if (imc>25 && imc <=29.9){
 else if (imc >=30){  
     alert(`Obeso`)
     alert(`Seu imc e ${imc}`) 
+}
 }

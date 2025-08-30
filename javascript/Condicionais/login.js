@@ -1,4 +1,4 @@
-function ex5(){
+function ex9(){
 const senha =1234
 const usuario="admin"
 

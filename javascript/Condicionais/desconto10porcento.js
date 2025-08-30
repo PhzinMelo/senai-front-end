@@ -1,3 +1,4 @@
+function ex8() {
 let valor =Number(prompt("Digite o valor da compra"))
 let valorfinal
 
@@ -11,3 +12,4 @@ else {
     valorfinal=valor
     alert(`O valor final e ${valorfinal}`);
     }
+}
