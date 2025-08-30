@@ -1,3 +1,4 @@
+function ex6(){
 const operation =Number(prompt("escolha a operação 1=adição,2=subtração,3=multiplicação,4=divisão"));
 let number1 = Number(prompt("Primeiro número"));
 let number2 = Number(prompt("Segundo número"));
@@ -20,4 +21,5 @@ else if (operation===4){
 }
 else{   
     alert(`Opção invalida`)
+}
 }

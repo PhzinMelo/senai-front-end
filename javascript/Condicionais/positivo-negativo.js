@@ -1,3 +1,4 @@
+function ex2(){
 const numero = Number(prompt("Digita um numero"));
 
 if (numero ===0){
@@ -10,4 +11,5 @@ if (numero <0)
     alert("negativo");
 else{   
 
+}
 }

@@ -1,0 +1,1 @@
+let number = Number(prompt(""));

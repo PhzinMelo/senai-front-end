@@ -1,3 +1,4 @@
+function ex5(){
 const senha =1234
 const usuario="admin"
 
@@ -9,4 +10,5 @@ if (senha == passdigi && usuario==userdigi){
 }
 else{   
     alert("Login errado")
+}
 }

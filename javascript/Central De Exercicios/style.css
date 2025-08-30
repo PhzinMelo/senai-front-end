@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.header{    
+    
+    background-color: #007bff;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    }
+
+.title{ 
+  font-size: 2rem;
+
+}
+.container-meio{    
+    
+    background-color: bisque;
+}
+.main{  
+    padding: 20px;
+}
+.secao{ 
+ 
+}
+.secao-titulo{  
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+.cards-container{   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card-exercicio{    
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.card-exercicio h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.card-exercicio p {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.card-exercicio button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  
+}
+.card-exercicio button:hover {
+  background-color: #0056b3;
+}
